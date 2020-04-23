@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './header.js';
+import Main from './Main.js';
+import Nav from './nav.js';
+import Footer from './footer.js';
+import Blog1 from './blog1.js';
+import Blog2 from './blog2.js';
+import Blog3 from './blog3.js';
+import Blog4 from './blog4.js';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default class App extends React.Component {
+  render() {
+    return (
+      <Router>
+      <div className="App">
+        <Header />
+      </div>
+      <Route exact path='/' component={Main} />
+      <Route path='/Blog1' component={Blog1} />
+      <Route path='/Blog2' component={Blog2} />
+      <Route path='/Blog3' component={Blog3} />
+      <Route path='/Blog4' component={Blog4} />
 
-export default App;
+      <Nav />
+   		<Footer />
+      </Router>
+    );
+  } 
+}
