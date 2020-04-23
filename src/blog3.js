@@ -9,7 +9,7 @@ export default class Blog1 extends React.Component {
                 <img className="blog" src={pic1 } alt="Vikings" />
                 <h1 className="title">Why CSK win and RCB lose
                 </h1>
-                <p id="t">June 18, 2018</p>
+                <p id="t">April 22, 2020</p>
 
                <p>"The fight is won or lost far away from witnesses - behind the lines, in the gym, and out there on the road, long before I dance under those lights," Muhammad Ali once said. And so it was in the IPL: in many ways the league was not won or lost on the field of play but in the air-conditioned function rooms of glitzy hotels that staged the annual player auction.
 
