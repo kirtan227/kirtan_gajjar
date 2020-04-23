@@ -10,7 +10,7 @@ export default class Blog4 extends React.Component {
     <h1 className="title">IPL 13 set to be postponed
 
     </h1>
-    <p id="t">June 18, 2018</p>
+    <p id="t">April 22, 2020</p>
 
 <p>The Board of Control for Cricket in India (BCCI) has informed the franchises that the 2020 edition of the Indian Premier League stands postponed, according to a PTI report. The development, which hasn't been announced officially, comes in the wake of an address to the nation from Prime Minister Narendra Modi, who on Tuesday (April 14) announced that the lockdown measures to combat the COVID-19 threat will remain until May 3.
 
