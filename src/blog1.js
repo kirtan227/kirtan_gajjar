@@ -9,7 +9,7 @@ export default class Blog1 extends React.Component {
     <img className="blog" src={pic1 } alt="Saurav Ganguly" />
     <h1 className="title">No cricket in India in the near future - Ganguly
     </h1>
-    <p id="t">June 18, 2018</p>
+    <p id="t">April 22, 2020</p>
 
         <p>With the COVID-19 pandemic bringing the sporting activities around the world to a halt, playing in empty stadiums is the likely scenario in the foreseeable future until the threat of the virus is completely negated. Bundesliga, the German football league, is likely to be the first top-flight league that sets the tone for the future with discussions being held for the league to resume sometime in May.
 
